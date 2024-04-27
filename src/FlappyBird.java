@@ -57,7 +57,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         pipesCooldown = new Timer(1500, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
-                System.out.println("Pipe");
+//                System.out.println("Pipe");
                 placePipes();
             }
         });
